@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+
+<head>
+  <title>Climate Change</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+
+  <link rel="icon"
+    href="https://cdn0.iconfinder.com/data/icons/contents-2/24/129_-_Content_code_css_html_html_code_script_icon-512.png">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!--- Headings --->
+  <nav>
+    <div class="nav-bar">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><button id="theme-button">Toggle Dark Mode</button></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="Home">
+    <div class="header-container">
+      <div class="header-item">
+        <img id="header-img"
+          src="https://i0.wp.com/www.johnpatrick.com/wp-content/uploads/2019/12/climate_change.jpg?w=834&ssl=1"
+          alt="options">
+      </div>
+      <div class="header-item">
+        <h1 id="title">The Current Stage With Climate Change</h1>
+        <div id="header-button">
+          <button id="starterButton">The Story</button>
+          <button id="starterButton">Lend a Hand</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class ="second-title">Informing those who wish to understand about the harmful effects of Climate Change</h2>
+  <div class="image-wrapper revealable">
+    <img src="images/pexels-markus-spiske-2990610.jpg" alt="Protest">
+    <div class="img-text">
+      There has been protests all over the world, but when will it be enough?
+    </div>
+    <img src="images/pexels-pixabay-221012 (1).jpg" alt="polution in Air" height=auto;">
+
+    <div class="img-text">
+      How much polution will we have to pump into the Air before the effects are too drastic?
+    </div>
+  </div>
+  <br>
+  <br>
+  <!--- About --->
+  <div id="about">
+    <h1>What is Climate Change?</h1>
+    <h3>Climate change is caused by human activities that release greenhouse gases, leading to long-term changes in
+      weather
+      and temperatures on Earth. It poses significant challenges to ecosystems, human health, and the economy. Urgent
+      action
+      is needed to reduce emissions and adapt to the changes.</h3>
+  </div>
+  <br>
+  <br>
+  <!--- Data --->
+  <div class='revealable' id="impact">
+    <h3>Impact So Far</h3>
+    <div class="list-info">
+      <ul>
+        <li> Earth's surface temperature has risen by 1.1 degrees Celsius due to human activities</li>
+        <li> Climate change is causing rising sea levels, which threaten coastal areas and small island nations</li>
+        <li> Climate change leads to more severe weather events like heatwaves, droughts, hurricanes, cyclones, and
+          wildfires.
+        </li>
+        <li> Greenhouse gases absorbed by oceans lead to ocean warming, acidification, and affect marine ecosystems.
+        </li>
+        <li> Climate change hits vulnerable populations like those in poverty, indigenous communities, and areas prone
+          to
+          extrem
+          weather events the hardest.</li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jAa58N4Jlos" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+  <div class="footer">
+    <h2>Learn More</h2>
+    <a class="UN-article" href="https://www.un.org/en/climatechange/what-is-climate-change">
+      <article>
+        <h3>United Nations on Climate Change</h3>
+        <p>"What is Climate Change? Understanding the Causes, Effects, and Urgency of Climate Action"</p>
+      </article>
+
+      <a class="NASA-article" href="https://climate.nasa.gov/">
+        <article>
+          <h3>NASA on Climate Change</h3>
+          <p>Dive deep with NASA about the current climate change situation and what that means for us.</p>
+        </article>
+      </a>
+  </div>
+  <break></break>
+  <break></break>
+  
+  <div class="petition" id="petition">
+
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container revealable">
+
+
+      <div class="petition-para">
+        <p>Once upon a time, in a not-so-distant future, it was so hot outside that people started grilling their pancakes on the sidewalk. Don't let your breakfast become a casualty of climate change! Sign our petition now to help make a difference.</p>
+      </div>
+
+      <div class="signatures">
+        <p>🖊️ Ashley from Brazil supports this.</p>
+        <p>🖊️ Amy from New York supports this.</p>
+        <p>🖊️ Kevin from Berlin supports this.</p>
+      </div>
+
+    </div>
+
+  <!--- Sign Petition Form --->
+  <form id="sign-petition" title="sign-petition">
+    
+    <!-- inputs go here -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="hometown">Hometown:</label>
+    <input type="text" id="hometown" name="hometown" required>
+    
+  </form>
+    
+   <!--- Sign Now Button --->
+  <button id="sign-now-button">Sign Now</button>
+
+</div>
+
+ 
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  
+
+  <!-- Modal -->
+<div id="thanks-modal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div id="modal-text-container">
+      <!-- text here -->
+      <p id="thanks-modal-content"></p>
+      <!-- button here (stretch feature) -->
+    </div>
+    <!-- image here-->
+    <img id ="thank-you-img" src="https://mcdn.wallpapersafari.com/medium/3/59/juKiH0.png" alt="minecraft-pig">
+  </div>
+    
+</div>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+ <script src="index.js"></script>
+  
+</body>
+
+</html>
